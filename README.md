@@ -1,2 +1,4 @@
-# html-css-from-the-begining-SASS
+# Html and CSS from the Begining (including SASS)
 Notes from Brad Traversy UDEMY Courses
+
+
