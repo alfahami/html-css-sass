@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Div, Span, id and class</title>
+
+  <style>
+    .card {
+      border: 1px solid #ccc;
+      background: #f4f4f4;
+      padding: 20px;
+      margin-bottom: 10px;
+    }
+    .enhanced {
+      color: yellow;
+      background-color: black;
+    }
+  </style>
+</head>
+<body>
+  <!-- It good to have your id individual and not repeated -->
+  <!-- While a class can be repeated -->
+  <div id="main-header" class="card">
+    <h1>My Website</h1>
+    <p>A site about my jummping to the game</p>
+  </div>
+  <ul>
+    <li><a href="#">Home</a></li>
+    <li><a href="#">About</a></li>
+    <li><a href="#">Contact</a></li>
+  </ul>
+  <div id="about" class="card"> 
+    <h3>About</h3>
+    <p>Lorem ipsum dolor <span class="enhanced">sit amet consectetur adipisicing elit.</span> Eligendi dolorum veniam natus obcaecati magni alias aut sit eos ducimus voluptates. Sunt error quis officiis officia ea repudiandae ipsam? Asperiores, doloribus.</p>
+
+  </div>
+
+  <div id="contact" class="card">
+    <h3>Contact Me</h3>
+    <ul>
+      <li>Address: 50 Main st, Boston MA</li>
+      <li>Phone:  (555) 555-5555</li>
+      <li>Email: me@somethingcool.com</li>
+    </ul>
+  </div>
+
+  <div id="footer">
+    <p>Copyright 2020</p>
+  </div>
+</body>
+</html>
