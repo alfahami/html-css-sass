@@ -1,0 +1,278 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color:#fff;
+  font-family: Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+  background-color: #4169A7;
+  height: 80px;
+}
+
+form {
+  color: #fff;
+}
+
+header form label {
+  font-size: small;
+  color:#fff;
+}
+
+header form input[type='email'], header form input[type='password'] {
+  color: #000;
+  height: 25px;
+  margin-top: 4px;
+  padding: 5px;
+  border: solid 0.2px #000;
+}
+
+header form input[type='submit'] {
+  background-color: #365899;
+  color: #fff;
+  font-weight: bold;
+  margin-left: 10px;
+  padding: 5px;
+  cursor: pointer;
+  border: solid 0.1px #464646;
+}
+
+header form input[type='submit']:hover {
+  background-color: #011a41;
+}
+
+aside {
+  width: 45%; 
+  float: left;
+  margin-left: 110px;
+}
+
+aside h2 {
+  color: #0E385F;
+  margin-top: 50px;
+  margin-right: 50px;
+  font-size: 22px;;
+}
+
+main {
+  margin-top: 50px;
+  margin-right: 24px;
+  width: 42%; 
+  float: right;
+}
+
+main h2 {
+  font-size: 40px;
+  font-weight: 400;
+}
+
+input#fname, input#surname {
+  height: 40px;
+  width: 37%;
+  border-radius: 5px;
+  border: 1px solid #acb3c7;
+  margin: 15px 0;
+}
+
+input#surname {
+  margin-left: 0px;
+}
+
+main input[type="text"] {
+  font-family: 'Raleway' 'sans-serif';
+  font-size: 16.5px;
+  padding: 5px;
+}
+
+main input[type="email"] {
+  font-size: 17px;
+  height: 40px;
+  width: 75%;
+  padding: 5px;
+  margin-bottom: 10px;
+  border: 1px solid #acb3c7; 
+  border-radius: 5px;
+}
+
+main input[type="password"] {
+  font-size: 16px;
+  width: 75%;
+  height: 40px;
+  margin-bottom: 20px;
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid #acb3c7; 
+}
+
+h3 {
+  color: #92949c;
+  margin-bottom: 5px;
+}
+
+main input[type='date'] {
+  font-size: 17px;
+  height: 30px;
+  padding: 5px;
+  border: solid 1px #ccc;
+}
+
+main input[type="submit"] {
+  background-color: #649d50;
+  color: white;
+  font-size: large;
+  font-weight: bold;
+  width: 32%;
+  padding: 10px;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  cursor: pointer;
+  border-radius: 10px;
+  border: solid 0.5px #756f6f;
+}
+
+main input[type="submit"]:hover {
+  background-color: #82d365;
+}
+
+footer {
+  background: #fff;
+  font-size: small;
+  line-height: 20px;
+  max-width: 1100px;
+  height: 150px;
+  margin: 20px auto;
+}
+
+footer p a {
+  text-decoration: none;
+  color: #4169a7;
+  margin-right: 10px;
+}
+
+footer p a:hover {
+  text-decoration: underline;
+}
+
+.header {
+  margin: 0px auto;
+}
+
+.gender {
+  display: inline;
+  margin: 8px;
+}
+
+.container {
+  background-color: #E1E5EF;
+  margin: 0 auto;
+}
+
+.clr {
+  clear: both;
+}
+
+.hr {
+  width: 980px;
+  margin: 10px 0;
+  border-top: solid 1px #a8a8a8;
+}
+
+.name {
+  
+  display: inline;
+}
+
+#logo-image {
+  float: left;
+  margin-left: 104px;
+
+}
+
+#subscription-form {
+  float: right;
+  margin-top: 10px;
+  margin-right: 150px;
+}
+
+#forgotten-email {
+  font-size: small;
+  padding: 4px 0;
+}
+
+#left-form {
+  float: left;
+  margin-right: 15px;
+}
+
+#right-form {
+  float: right;
+}
+
+#right-form p a {
+  color: #b5bac4;
+  text-decoration: none;
+}
+
+#right-form p a:hover {
+  text-decoration: underline;
+}
+
+#subtitle {
+  margin: 15px 0;
+  font-size: x-large;
+  font-weight: 100;
+}
+
+#gender {
+  margin: 15px 0;
+}
+
+#policies {
+  font-size: x-small;
+  width: 60%;
+  text-align: justify;
+  margin: 15px 0;
+  color: #798294;
+}
+
+#policies a {
+  color: #232f53;
+}
+
+#celebrity-brand-business {
+  color: #84868d;
+  font-weight: bold;
+  font-size: small;
+  margin-bottom: 30px;
+}
+
+#celebrity-brand-business a {
+  text-decoration: none;
+  color: #3d579b;
+}
+
+#languages {
+  padding: 20px 0;
+}
+
+#selected-language {
+  color: #979090; 
+}
+
+#links {
+  width: 85%;
+  padding: 10px 0;
+}
+
+footer p#links a {
+  color: #979090;
+  padding: 10px 0;
+}
+
+#copyright {
+  font-size: smaller;
+  color: #979090;
+}

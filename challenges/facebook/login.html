@@ -1,0 +1,93 @@
+  <!DOCTYPE html>
+  <html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Facebook - Login or signup</title>
+    <link rel="stylesheet" href="css/fb-styles.css">
+  </head>
+  <body>
+    <header>
+      <div class="header">
+        <h1>
+          <a href="facebook.com"><img id="logo-image" src="img/fb.png" alt="Go to facebook home"></a>
+        </h1>  
+        <form action="post" id="subscription-form">
+          <div id="left-form">
+            <label for="email-phone">Email or Phone</label><br>
+            <input type="email" name="email" id="email-phone">
+          </div>
+  
+          <div id="right-form">
+            <label for="password">Password</label><br>
+            <input type="password" name="password" id="password">
+            <input type="submit" value="Log In">
+            <p id="forgotten-email"><a href="#">Forgotten account?</a></p>
+          </div>
+        </form>
+      </div>
+    </header>
+    
+    <div class="container">
+      <aside id="slogan">
+        <h2>Facebook helps you connect and share with the people in your life</h2>
+        <div>
+          <img src="img/stay_connected.png" alt="">
+
+        </div>
+      </aside>
+  
+      <main id="login-form">
+        <h2>Create an account</h2>
+        <p id="subtitle">It's quick and easy.</p>
+        <div class="name">
+          <label for="fname" hidden></label>
+          <input type="text" name="fname" placeholder="First name" id="fname">
+          <label for="lname" hidden>Surname</label>
+          <input type="text" name="surname" placeholder="Surname" id="surname">
+        </div>
+        <label for="email-phone" hidden>Email or phone number</label>
+        <input type="email" name="email" placeholder="Mobile number or email address">
+        <label for="password" hidden>New password</label>
+        <input type="password" name="password" placeholder="New pasword">
+        
+        <h3>Birthday</h3>
+        <input type="date" name="birthdate">
+  
+        <h3 id="gender">Gender</h3>
+        <div class="gender">
+          <input type="radio" name="gender" value="female"> Female
+        </div>
+        <div class="gender">
+          <input type="radio" name="gender" value="male"> Male
+        </div>
+        <div class="gender">
+          <input type="radio" name="gender" value="custom">Custom
+        </div>
+  
+        <p id="policies">By clicking Sign Up, you agree to our <a href="#">Terms</a>, <a href="#">Data Policy</a> and Cookie Policy. You may receive SMS notifications from us and can opt out at any time.</p>
+  
+        <input type="submit" value="Sign Up">
+  
+        <p id="celebrity-brand-business"><a href="#">Create a Page</a> for a celebrity, brand or business</p>
+      </main>  
+      <div class="clr"></div>    
+    </div>
+    
+    <footer>
+      <p id="languages"><span id="selected-language">English (UK)</span>  <a href="#">Français (France)</a> <a href="">العربية</a>  <a href="#">ⵜⴰⵎⴰⵣⵉⵖⵜ</a>  <a href="#">Español (España)</a>  <a href="#">Italiano</a>  <a href="#">Deutsch</a>  <a href="#">Português (Brasil)</a>  <a href="#">हिन्दी</a>  <a href="#">中文(简体)</a>  <a href="">日本語</a></p>
+
+      <div class="hr"></div>
+      <p id="links">
+        <a href="#">Sign Up</a>    <a href="#">Log In</a>    <a href="#">Messenger</a>    <a href="#">Facebook Lite</a>    <a href="#">Watch</a>
+        <a href="#">People</a> <a href="#">Pages</a>    <a href="#">Page Categories</a>   <a href="#">Places</a>    <a href="#">Games</a> <a href="#">Locations</a>
+        <a href="#">Marketplace</a>    <a href="#">Groups</a>    <a href="#">Instagram</a>    <a href="#">Local</a>    <a href="#">Fundraisers</a>
+        <a href="#">Services</a>    <a href="#">About</a>    <a href="#">Create ad</a>    <a href="#">Create Page</a>    <a href="#">Developers</a>
+        <a href="#">Careers</a>    <a href="#">Privacy</a>    <a href="#">Cookies</a>    <a href="#">Privacy</a>    <a href="#">Cookies</a>    
+        <a href="#">AdChoice</a>    <a href="#">Terms</a>    <a href="#">Help</a>
+      </p>
+      <p id="copyright">Facebook &copy; 2019</p>
+    </footer>
+  </body>
+  </html>
