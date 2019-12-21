@@ -5,7 +5,7 @@ Notes from **Brad Traversy** UDEMY Course: Modern HTML & CSS From The Begining (
 
 ### DISCLAIMER
 These should not be used as resource of the official course.\
-They may not be exactly the same as official resources from the Udemy course.\
+These may not be exactly the same as official resources from the Udemy course.\
 These are actually my own notes redefines with some comments and explanation.
 
 
