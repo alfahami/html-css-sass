@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Em & Rem Units</title>
+    <style>
+        /* #box-1 {
+            font-size: 20px;
+        }
+
+        #box-1 p {
+            font-size: 1.5em;
+            padding: 1em;
+        }
+
+        #box-1 ul {
+            font-size: 1.2em;
+        } */
+
+        html {
+            font-size: 10px; /* Same as font-size: 10px; */
+        }
+        #box-2 h3 {
+            font-size: 2.5rem;
+        }
+
+        #box-2 p {
+            font-size: 1.8rem;
+            line-height: 1.7rem;
+        }
+        #box-2 ul, 
+        #box-2 li {
+            font-size: 1.8rem;
+        }
+    </style>
+</head>
+<body>
+    <!-- <div id="box-1">
+        <h3>Box 1</h3>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident asperiores ut quod sint odit dolores sit rem quibusdam dicta modi.</p>
+        <ul>
+            <li>1</li>
+            <li>2</li>
+            <li>
+                <ul>
+                    <li>1</li>
+                    <li>2</li>
+                    <li>
+                        <ul>
+                            <li>1</li>
+                            <li>2</li>
+                            <li>3</li>
+                            <li>4</li>
+                        </ul>
+                </li>
+                </ul>
+            </li>
+            <li>4</li>
+        </ul>
+    </div> -->
+    <div id="box-2">
+        <h3>Box 2</h3>
+        <p>Em & Rem are similars but they are multipliers of different things:</p>
+        <ul>
+            <li>Em unit is a multiplier relative to the font-size of it's container or parent unit</li>
+            <li>Once we add a font-size to the actual element itself, the em unit will go on that. ex <code>header p { font-size: 1.5em; //computed value: 30px <br> padding: 1em; //computed value: 30px instead of 20px which mentioned in the header (<code>header { font-size: 20px; }</code>)}</code></li>
+            <li>Another thing is when dealing with nested elements like ul and lis</li>
+
+        <li>Rem unit is relative to the font-size of the root html element. It default font-size is 16px which can be modified within CSS</li>
+    </ul>  
+    </div>
+</body>
+</html>
