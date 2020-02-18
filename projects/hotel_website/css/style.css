@@ -43,7 +43,7 @@ a {
 .btn {
   display: inline-block;
   background: #333;
-  color: #fff;
+  color: #000;
   padding: 13px 20px;
   cursor: pointer;
   border: none;
