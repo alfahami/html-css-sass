@@ -10,12 +10,12 @@ Aligns items both horizontal (row) and vertical (column)
 Flex items can be re-ordered via CSS, don't have to change our markup
 
 # How it works
-        * __display: flex;__ `/* Creates a **"flex container"** */`
-        * All direct child elements are **"flex items"
-[image]!
-()
+   * __display: flex;__ Creates a "flex container"`
+   * All direct child elements are **"flex items"**
+
+![alt text](https://github.com/alfahami/html_css_sass/blob/master/csssandbox/img/notes-images/flexbox.png "Flexbox axes")
 
  # Alignment Properties
-    * `justify-content` Align along the main axis (Horizontal)
-    * `align-items` Align items along the cross axis (Vertical)
-    * `aling-content` Align when extra space in cross axis
+  * `justify-content` Align along the main axis (Horizontal)
+  * `align-items` Align items along the cross axis (Vertical)
+  * `aling-content` Align when extra space in cross axis
