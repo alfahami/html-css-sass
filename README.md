@@ -4,9 +4,4 @@ Notes from **Brad Traversy** UDEMY Course: Modern HTML & CSS From The Begining (
 Visit or enroll the course here : 
 [Modern HTML & CSS From The Begining (including SASS)](https://www.udemy.com/course/modern-html-css-from-the-beginning/ "Udemy Course link")
 
-### DISCLAIMER
-These should not be used as resource of the official course.\
-These may not be exactly the same as official resources from the Udemy course.\
-These are actually my own notes redefines with some comments and explanation.
-
 
