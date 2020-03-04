@@ -9,7 +9,7 @@
 ## PS: [Namecheap](https://www.namecheap.com/) : most recomanded for domain names
 ### PPS: [FileZilla](https://filezilla-project.org/) most recommanded FTP account
         * FTP is very slow for large application, better use Git, using ssh, the ControlPanel, so on and so forth
-## Exemples: Inmotion hosting, Hostgator, Bluehost
+## Exemples: [Inmotion hosting](https://www.inmotionhosting.com/), [Hostgator](https://www.hostgator.com/), [Bluehost](https://www.bluehost.com/)
 
 ### Shared Hosting
         * One account of many on a server (same environement)
@@ -36,7 +36,7 @@
         * $15 to $100 per month
 
 ### Dedicated Server
-        * Your own __actual__ server
+        * Your own actual server
         * You rent out physical machine
         * Full access & privileges
         * Harder to manage but very powerful
