@@ -21,7 +21,7 @@ function initMap() {
   });
   
   
-  // Smooth Scrolling
+  // Smooth Scrolling, removed the btn to let the message got submitted
   $('#navbar a').on('click', function(event) {
     if (this.hash !== '') {
       event.preventDefault();
