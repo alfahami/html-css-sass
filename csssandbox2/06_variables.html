@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Variables</title>
+    <style>
+        /* Every variable that declared in the root scope can be used everywhere in the stylesheet */
+        :root {
+            --max-width: 1100px;
+            --primary-color: forestgreen;
+            --secondary-color: darkgreen;
+            --light-color: #f4f4f4f4;
+        }
+
+        .box {
+            --box-1-width: 1;
+            --box-2-width: 2;
+        }
+
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            line-height: 1.4;           
+            background: var(--light-color); */
+        }
+
+        header {
+            background: var(--primary-color);
+            border-bottom: 5px solid var(--secondary-color);
+            text-align: center;
+            color: #fff;
+        }
+
+        .container {
+            display: flex;
+            margin: auto;
+            max-width: var(--max-width);
+        }
+
+        .box {
+            background: var(--primary-color);
+            border-bottom: 5px solid var(--secondary-color);
+            margin: 1rem;
+            padding: 1rem;
+            color: #fff;
+        }
+
+        .box-1 { flex: var(--box-1-width) }
+        .box-2 { flex: var(--box-2-width) }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>CSS Variables</h1>
+    </header>
+    <div class="container">
+        <div class="box box-1">
+            <h3>Heading</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus voluptatibus aliquam nulla dolore omnis nemo at minima eius excepturi incidunt!</p>
+        </div>
+        <div class="box box-2">
+            <h3>Heading</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus voluptatibus aliquam nulla dolore omnis nemo at minima eius excepturi incidunt!</p>
+        </div>
+        
+    </div>
+</body>
+</html>
